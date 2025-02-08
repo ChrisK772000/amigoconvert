@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="tiktok.html" class="nav-link">TikTok Converter</a>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="logo">
+            <h1>Tiktok Converter</h1>
+        </div>
+        
+        <div class="converter-form">
+            <h2>Insert a TikTok video URL</h2>
+            <div class="input-group">
+                <input type="url" 
+                       id="tiktokUrl" 
+                       placeholder="tiktok.com/@user/video/..." 
+                       required>
+                <div class="button-group">
+                    <button class="format-btn active">MP4</button>
+                    <button id="convertButton">Convert</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="description">
+            <h2>TikTok to MP4 Converter</h2>
+            <p>Our TikTok to MP4 Converter allows you to convert your favorite TikTok videos to MP4 
+               (video) files and to download them for FREE. This converter works on your desktop, 
+               tablet and mobile device without the installation of any additional apps. The usage is 
+               free and safe!</p>
+            
+            <div class="instructions">
+                <h3>How to download TikTok videos?</h3>
+                <ol>
+                    <li>Go to TikTok.com and find a video you would like to download. Then copy the video 
+                        URL from the browser address bar (tiktok.com/@user/video/...).</li>
+                    <li>Paste the video URL in our TikTok Converter, and choose your preferred download format. 
+                        Click on the "Convert" button.</li>
+                    <li>After the conversion is completed, click the "Download" button to get your file.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="tiktok.js"></script>
+</body>
+</html>
