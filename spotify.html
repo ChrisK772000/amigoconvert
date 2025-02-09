@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7JS8G0F7P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-V7JS8G0F7P');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TikTok Converter | AmigoConverter</title>
+    <title>Spotify naar MP3 Converter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" ype="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
@@ -30,18 +23,18 @@
 
     <div class="container">
         <div class="logo">
-            <h1>Tiktok Downloader</h1>
+            <h1>Spotify Downloader</h1>
         </div>
         
         <div class="converter-form">
-            <h2>Insert a TikTok video URL</h2>
+            <h2>Insert a Spotify Track URL</h2>
             <div class="input-group">
                 <input type="url" 
-                       id="tiktokUrl" 
-                       placeholder="tiktok.com/@user/video/..." 
+                       id="spotifyUrl" 
+                       placeholder="open.spotify.com/track/..." 
                        required>
                 <div class="button-group">
-                    <button class="format-btn active">MP4</button>
+                    <button class="format-btn active">MP3</button>
                     <button id="convertButton">Convert</button>
                 </div>
             </div>
@@ -50,18 +43,18 @@
         <div id="result"></div>
 
         <div class="description">
-            <h2>TikTok to MP4 Converter</h2>
-            <p>Our TikTok to MP4 Converter allows you to convert your favorite TikTok videos to MP4 
-               (video) files and to download them for FREE. This converter works on your desktop, 
+            <h2>Spotify to MP3 Converter</h2>
+            <p>Our Spotify to MP3 Converter allows you to convert your favorite Spotify tracks to MP3 
+               (audio) files and to download them for FREE. This converter works on your desktop, 
                tablet and mobile device without the installation of any additional apps. The usage is 
                free and safe!</p>
             
             <div class="instructions">
-                <h3>How to download TikTok videos?</h3>
+                <h3>How to download Spotify tracks?</h3>
                 <ol>
-                    <li>Go to TikTok.com and find a video you would like to download. Then copy the video 
-                        URL from the browser address bar (tiktok.com/@user/video/...).</li>
-                    <li>Paste the video URL in our TikTok Converter, and choose your preferred download format. 
+                    <li>Go to Spotify and find a track you would like to download. Then copy the track 
+                        URL from the browser address bar (open.spotify.com/track/...).</li>
+                    <li>Paste the track URL in our Spotify Converter, and choose your preferred download format. 
                         Click on the "Convert" button.</li>
                     <li>After the conversion is completed, click the "Download" button to get your file.</li>
                 </ol>
@@ -69,7 +62,6 @@
         </div>
     </div>
 
-
-    <script src="tiktok.js"></script>
+    <script src="spotify.js"></script>
 </body>
 </html>

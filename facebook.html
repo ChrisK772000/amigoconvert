@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Video Downloader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <body>
+        <nav class="top-nav">
+            <div class="nav-content">
+                <a href="index.html" class="nav-link">🔴Home</a>
+                <a href="tiktok.html" class="nav-link">🟣TikTok Downloader</a>
+                <a href="spotify.html" class="nav-link">🟢Spotify Downloader</a>
+                <a href="facebook.html" class="nav-link">🔵Facebook Downloader</a>
+            </div>
+        </nav>
+
+    <div class="container">
+        <div class="logo">
+            <h1>Facebook Downloader</h1>
+        </div>
+        
+        <div class="converter-form">
+            <h2>Insert a Facebook Video URL</h2>
+            <div class="input-group">
+                <input type="url" 
+                       id="facebookUrl" 
+                       placeholder="facebook.com/watch/..." 
+                       required>
+                <div class="button-group">
+                    <button class="format-btn active">MP4</button>
+                    <button id="convertButton">Download</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="description">
+            <h2>Facebook Video Downloader</h2>
+            <p>Our Facebook Video Downloader allows you to download your favorite Facebook videos in MP4 
+               format for FREE. This downloader works on your desktop, tablet and mobile device without 
+               the installation of any additional apps. The usage is free and safe!</p>
+            
+            <div class="instructions">
+                <h3>How to download Facebook videos?</h3>
+                <ol>
+                    <li>Go to Facebook and find a video you would like to download. Then copy the video 
+                        URL from the browser address bar (facebook.com/watch/...).</li>
+                    <li>Paste the video URL in our Facebook Downloader and click on the "Download" button.</li>
+                    <li>After the processing is completed, click the "Download" button to get your video.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="facebook.js"></script>
+</body>
+</html>
